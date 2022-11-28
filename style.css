@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.floor {
+    position: absolute;
+    top: -10%;
+    left: -5%;
+    width: 10%;
+    height: 10%;
+    background: url('https://i.ibb.co/Jm1kQTJ/Brick-01.png');
+    transform: rotate3d(1, 0, 1, 50deg);
+}
+canvas {
+    
+    top: 0; left: 0;
+    width: -100%;
+    height: -100%;
+    background-color: black;
+}
+
+footer, article {
+  font-family: monospace;
+  position: absolute;
+  width: 20%;
+  color: white;
+  font-size: 55px;
+  text-shadow: 1px 1px 1px #737373; 
+  background: rgba(0,0,0,0.4);
+}
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  height: 200px;
+  line-height: 70px;
+  padding-right: 50px;
+}
+footer a{
+  color: gold;
+}
+article {
+  position: absolute;
+  z-index: 100;
+  width: 10%;
+  max-width: 350px;
+  font-size: 55px;
+  color: black;
+  padding: 10px;
+  border-radius: 5px 0 5px 0;
+}
